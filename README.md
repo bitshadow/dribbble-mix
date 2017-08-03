@@ -3,7 +3,7 @@ Running Instructions:
 
 ```sh
  $ git clone https://github.com/bitshadow/dribbble-mix.git
- $ cd dribbble-mix && npm install && npm start
+ $ cd dribbble-mix && npm install && DRIBBLE_TOKEN=xyz nodemon
 ```
 
 in browser visit:
@@ -11,13 +11,13 @@ in browser visit:
     
 params:
 -------
-  `url`: user profile url
+  `url`: Dribble user profile url
 
-  `htmlOnly`: returns html version of the resolver if flag is true else returns json
+  `htmlOnly`: Returns html version of the resolver if flag is `true` else returns JSON.
 
-Make sure you host this server in public network before using in mixmax server.
+Make sure you host this server in public network before using in Mixmax dashboard.
 
-Mixmax flow:
+Mixmax Dashboard:
 ============
 1. Go to Mixmax Dashboard,
 2. Click on Settings
